@@ -1,0 +1,69 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: turquoise;
+}
+header {
+    background-color: rgb(126, 126, 126);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    top: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    border: solid white 1px
+}
+main{
+    margin-top: 180px;
+}
+
+.tamanho{
+    font-size: 19px;
+}
+
+nav ul {
+    box-sizing: border-box;
+    padding: 0; 
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+nav ul li a:hover {
+    cursor: pointer;
+    color: white;
+    border-bottom: 2px solid white;
+}
+ul li {
+    font-size: 20px;
+}
+h2 {
+    color: rgb(71, 71, 71);
+}
+#Famosos {
+    float: right;
+}
+article a{
+    text-decoration: none;
+    color: red;
+}
+article a:hover {
+    cursor: pointer;
+    color: white;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+}
+footer {
+    background-color: rgb(126, 126, 126);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
